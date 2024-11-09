@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Biblioteca</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>Sistema de Biblioteca</h2>
+    
+    <div class="form-section">
+        <input type="text" id="titulo" placeholder="Título do livro">
+        <input type="text" id="autor" placeholder="Autor do livro">
+        <input type="number" id="emprestimos" placeholder="Número de empréstimos" min="0">
+        <button onclick="adicionarLivro()">Adicionar Livro</button>
+    </div>
+
+    <h3>Livros Disponíveis</h3>
+    <div id="livrosDisponiveis" class="result"></div>
+
+    <h3>Total de Empréstimos</h3>
+    <p id="totalEmprestimos">0</p>
+
+    <script src="teste.js"></script>
+</body>
+</html>
